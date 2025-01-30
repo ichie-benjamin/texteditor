@@ -23,16 +23,4 @@ export default function Home() {
         </div>
     );
 
-
-  // return (
-  //
-  //     <div className="container mx-auto py-8 px-4">
-  //         <RichTextEditor
-  //             initialContent={ CONTENT }
-  //             onSave={handleSave}
-  //             className="max-w-4xl mx-auto"
-  //         />
-  //     </div>
-  //
-  // );
 }
