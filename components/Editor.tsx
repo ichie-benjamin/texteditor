@@ -108,7 +108,7 @@ export default function Editor({ content = '', onSave }: EditorProps) {
     const handleSave = () => {
         if (!editor) return;
 
-        // Convert editor HTML content to markdown before saving
+        // i have to Convert editor HTML content to markdown before saving to db to maintain same markdown on next edit
         const html = editor.getHTML();
         const markdown = turndown.turndown(html);
         onSave(markdown);
